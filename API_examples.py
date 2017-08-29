@@ -7,8 +7,8 @@ from requests.auth import HTTPBasicAuth
 # Authentication test
 
 base_url = "https://api.aircall.io/v1"
-user = "8ca7fd3be9592be0a0ed8b7b2cd9521b" #"your_api_id"
-password = "b8874f0da8c81ed3b8d31fb679784fdd" #"your_api_token"
+user = "" #"your_api_id"
+password = "" #"your_api_token"
 auth = HTTPBasicAuth(user, password)
 
 r = requests.get(base_url+"/ping", auth=auth)
